@@ -10,8 +10,21 @@ Simply download the latest [zip here](https://github.com/roante/fumbbl-mapper/tr
 ## How to run?
 Unpack and there's a `run.bat` file. Edit the coachId in the file:
 
-	java -jar fumbbl-mapper-1.0.0-RELEASE.jar -coachId=YOUR_COACHID_HERE
+	java -jar fumbbl-mapper-1.0.0-RELEASE.jar -coachId=YOUR_COACH_ID_HERE
 
 And that's all!
 
 Note that you need *Java 8* to run the script.
+
+## How to get your coachId?
+
+Check the following with your coach name:
+
+	https://fumbbl.com/xml:teams?coach=roante
+
+There the first line should tell it to you:
+
+	<teams coach="YOUR_COACH_ID_HERE">
+		...
+	</teams>
+
